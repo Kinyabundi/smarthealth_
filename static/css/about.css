@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,600&display=swap');
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	overflow-x:hidden;
+	height:100vh;
+	font-size:16px;
+}
+
+
+.logo img{
+	height:50px;
+	width:70px;
+	border-radius:10%;
+	margin:15px;
+}
+.motto{
+	position:relative;
+	top:20px;
+	left:35%;
+	font-family: 'Karla', sans-serif;
+}
+.right-section li h2{
+	margin-top:0px;
+}
+.content-section{
+	position:relative;
+	height:650px;
+	display:flex;
+}
+.heading{
+	position:absolute;
+	height:200px;
+	width:100%;
+}
+.heading h1{
+	font-family:'Rampart One',cursive;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top:5px;
+	margin-right:550px;
+	margin-left:550px;
+	border-radius:30px;
+	padding-bottom:20px;
+}
+.footer-section{
+	position:relative;
+	background-color:#b6ccd1;
+	font-weight: bold;
+	display: flex;
+	flex-direction:row;
+}
+.left-section{
+	position:relative;
+	padding-left:55px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+ .page{
+	padding-top:220px;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-bottom: 100px;
+	margin-top: 150px;
+}
+.page h1{
+	display:flex;
+	flex-direction:column;
+	align-items: flex-start;
+	color:#0e51c2;
+	margin-left:30px;
+}
+.page p{
+	font-size:16px;
+	padding:20px 0px;
+
+}
+.page li{
+	font-size:20px;
+	/*padding-left: 20px;*/
+} 
+
+
+.main-image{
+
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items: flex-end;
+	justify-content:flex-start;
+}
+.main-image img{
+	height:340px;
+	margin-top:260px;
+	margin-left:400px;
+	border-radius:20px;
+}
+.footer-section li{
+	list-style:none;
+}
+.platforms{
+	position: relative;
+	padding-left: 750px;
+	margin-top:10px;
+}
+.platforms img{
+	height:50px;
+	width:60px;
+	padding:10px;
+	border-radius:30px;
+}
+
+
+footer {
+	position: relative;
+}
+
+footer .container {
+	position: absolute;
+	bottom: 0;
+}

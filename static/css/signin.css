@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Monsterrat:wght@400;700&display=swap");
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Poppins;
+    color: black;
+    
+}
+ body{
+    /* overflow-y: hidden; */
+    height: 70vh;
+} 
+
+h1 {
+    font-weight: 100%;       
+}
+.container1 {
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    flex-direction: column;
+}
+.box {
+    margin-left: 2%;
+    margin-top:-200px;
+    width: 600px;
+    height: 550px;
+    font-size: 18px;
+    padding: 50px 50px;
+    box-shadow: 0 4px 8px 0 rgba(228, 10, 10, 0.2), 0 6px 20px 0 rgba(236, 10, 10, 0.19);
+    border-radius: 30px;
+    
+}
+.user {
+    margin-top: 50px;
+    
+}
+
+.body{
+ 
+background-repeat: no-repeat;
+background-size: cover;
+}
+.fas fa{
+
+    position: absolute;
+    margin-top: 50px;
+    
+}
+input{
+    width: 90%;
+    margin-bottom: 25px;
+    padding: 0px 25px 15px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid rgb(236, 76, 76);
+    outline: none;
+    font-weight: 400;
+
+}
+input:focus{
+     border-bottom: 1px solid rgb(2, 2, 34); 
+}
+.reset-password{
+    text-align: right;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.reset-password p{
+    color: rgb(58, 21, 223);
+    
+}
+.reset-password p a{
+    margin-top:5px;
+}
+
+.login-btn{
+    position: absolute;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    display: block;
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(75, 75, 216);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 #d1a5a5e8, 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+.btn:hover{
+    opacity: 1;
+}
+.signup{
+    margin-top: 20px;
+    color:black;
+    
+}
+a{
+    color: #2d0af3;
+    cursor: pointer;
+}
+a:hover{
+    color: red;
+}
+/* footer {
+    margin-top: 20px;
+    background-color: #ade8f4;
+    height: 200px;
+    padding: 25px;
+    overflow: hidden;
+} */
+
+.error-text {
+    background-color: white;
+    color: red;
+}

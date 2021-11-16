@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f6f6f6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    overflow: auto;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+}
+.grid3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar {
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .flex {
+    justify-content: space-around;
+}
+
+.logo h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #047aed;
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid #047aed;
+}
+
+.hero {
+    margin-top: 40px;
+}
+
+.hero .hero2 img {
+    width: 600px;
+    object-fit: contain;
+    height: 380px;
+    border-radius: 20px;
+}
+
+.hero .hero1 {
+    position: relative;
+}
+
+.hero1 h1{
+    margin-top: 40px;
+    font-size: 35px;
+    color: #00b4d8;
+}
+
+.hero1 p {
+    margin-top: 40px;
+    font-weight: 300;
+    color: #6b705c;
+}
+
+.hero1 button {
+    margin-top:40px;
+    height: 56px;
+    width: 150px;
+    border: 0;
+    background-color: #4361ee;
+    border-radius: 15px;
+    color: #001219;
+    font-size: 22px;
+    font-weight:500;
+    transform-style: 167ms;
+}
+
+.hero1 button:hover {
+    background-color: #00b4d8;
+    cursor: pointer;
+}
+
+
+.showcase {
+    margin-top: 8rem;
+}
+
+.showcase1 img {
+    width: 600px;
+    height:380px;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+.showcase2 .feature-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.feature-item p {
+    margin-left: 16px;
+}
+
+.feature-item i {
+    font-size:24px;
+}
+
+.feature-list {
+    margin-top: 20px;
+}
+
+.showcase2 h2 {
+    color: #00b4d8;
+}
+
+
+footer {
+    margin-top: 100px;
+    background-color: #ade8f4;
+    height: 200px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.contact-title {
+    margin-bottom: 15px;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+.contact-item a {
+    margin-left: 10px;
+}
+
+.social .social-item {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.social-item i {
+    margin: 6px 8px;
+}

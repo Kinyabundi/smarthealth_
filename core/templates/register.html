@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+
+{% block content %}
+
+{% if register_form.non_field_errors %}
+{% for err in register_form.non_field_errors %}
+<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{err}}
+</div>
+{% endfor %}
+{% endif %}
+
+<section class="login-page-card container">
+    <h1>Create an Account</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {% for hidden_field in register_form.hidden_fields %}
+        {{hidden_field.errors}}
+        {{hidden_field}}
+        {% endfor %}
+        <div class="form-content">
+            <div class="grid">
+                <div class="input-content">
+                    <label>First Name</label>
+                    {% render_field register_form.first_name placeholder="Riley" %}
+                    {% if register_form.first_name.errors %}
+                    {% for err in register_form.first_name.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="input-content">
+                    <label>Lastname</label>
+                    {% render_field register_form.last_name placeholder="Davis" %}
+                    {% if register_form.last_name.errors %}
+                    {% for err in register_form.last_name.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="input-content">
+                    <label>Email</label>
+                    {% render_field register_form.email  placeholder="riley@outlook.com" %}
+                    {% if register_form.email.errors %}
+                    {% for err in register_form.email.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="input-content">
+                    <label>Password</label>
+                    {% render_field register_form.first_name type="password" placeholder="Password" %}
+                    {% if register_form.first_name.errors %}
+                    {% for err in register_form.first_name.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="input-content">
+                    <label>Date of Birth</label>
+                    {% render_field register_form.date_of_birth type="date" %}
+                    {% if register_form.first_name.errors %}
+                    {% for err in register_form.first_name.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="input-content">
+                    <label>Gender</label>
+                    {% render_field register_form.gender placeholder="Female" %}
+                    {% if register_form.gender.errors %}
+                    {% for err in register_form.gender.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="input-content">
+                    <label>Phone Number</label>
+                    {% render_field register_form.phone type="tel" placeholder="+254712345678" %}
+                    {% if register_form.phone.errors %}
+                    {% for err in register_form.phone.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="input-content">
+                    <label>National ID</label>
+                    {% render_field register_form.national_id placeholder="1456622566" %}
+                    {% if register_form.national_id.errors %}
+                    {% for err in register_form.national_id.errors %}
+                        <p class="error-text">{{ err }}</p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="login-button">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+
+{% endblock %}

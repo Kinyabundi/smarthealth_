@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Monsterrat:wght@400;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: rgb(10, 10, 3);
+}
+
+body {
+    font-family: 'Poppins' sans-serif;
+}
+
+
+}
+.box h1 {
+    font-weight: 900;
+    color:black;
+       
+}
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+}
+.box {
+     position: relative;
+    margin-top: 5%;
+    width: 70vw;
+    height: 600vh;
+    font-size: 16px;
+    padding: 40px 40px;
+    box-shadow: 0 4px 8px 0 rgba(19, 255, 11, 0.6), 0 6px 20px 0 rgba(230, 23, 23, 0.19);
+    border-radius: 30px;
+    
+}
+.user{
+    margin-top: 50px;
+}
+
+body{
+   /* background-image: url("image background.webp");*/
+
+}
+.fas fa{
+    position: absolute;
+    margin-top: 50px;
+    color:black;
+}
+
+input{
+    width: 20%;
+    height:60px;
+    margin-bottom: 5px;
+    margin-right: 60px;
+    padding: 5px 10px 12px;
+    font-size: 16px;
+    border: 2px solid #9b151541;
+    outline: none;
+    color: rgb(59, 9, 240);
+    font-weight: 400;
+    border-radius: 5%;
+    font-family: Poppins;
+}
+#chronic{
+    color: rgb(76, 14, 247);
+    width: 30%;
+    height: 60px;
+    margin-bottom: 1px;
+  padding: 10px 30px 15px;
+  font-size: 16px;
+
+ border: 2px solid #dfcccc;
+  outline: none;
+color: rgb(75, 17, 235);
+font-weight: 300;
+border-radius: 5%;
+font-family: cursive;
+}
+input[type="checkbox"]{
+    height:30px;
+    margin-left: 2px;
+}
+input:focus{
+    border: 1px solid rgb(240, 10, 10);
+    border-radius: 5%;
+}
+.reset-password{
+    color: #ff7f50;
+    text-align: right;
+    margin-top: 0px;
+    font-size: 12px;
+
+}
+.login-btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    display: block;
+    width: 80%;
+    padding: 15px;
+    background-color: #EEEEEE;
+    color: #0f044C;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(241, 8, 8, 0.6), 0 6px 20px 0 rgba(219, 24, 24, 0.7) ;
+}
+.btn:hover{
+    opacity: 1;
+}
+.signup{
+    margin-top: 10px;
+}
+a{
+    color: #0F044C;
+    cursor: pointer;
+}
+a:hover{
+    color: #f71313;
+}
+.link{
+    margin-left: 90%;
+}
+.box h1{
+    margin-left:40%;
+    color: rgb(192, 40, 40);
+    text-decoration: underline;
+    
+}
+.cancer, .Diabetes, .Arthritis, .Stroke, .heart-Disease, .Asthma, .Mental{
+    color: rgb(70, 20, 248);
+}
+.link{
+    margin-left: 90%;
+    color: blue;
+}
+.Height{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 50px;
+    
+}
+#height{
+    width: 20%;
+    height: 10%;
+    margin-left:60px;
+}
+.Weight{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 60px;
+}
+#weight{
+    width: 20%;
+    height: 10%;
+}
+.BloodPressure{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 50px;
+}
+.Allergies{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 50px;
+}
+#Allergies{
+    width: 20%;
+    height: 10%;
+}
+.Chronic{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 50px;
+}
+#chronic{
+    width: 20%;
+    height: 15%;
+    margin-left:55px;
+}
+.Further{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 30px;
+}
+#Further{
+    width: 20%;
+    height: 10%;
+}
+span{
+
+}
+#medication{
+    width: 20%;
+    height: 20%;
+    margin-left: 55px;
+}
+.yes{
+    display:flex;
+    flex-direction: row;
+
+}

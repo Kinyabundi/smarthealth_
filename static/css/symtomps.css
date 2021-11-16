@@ -1,0 +1,15 @@
+.symtomps{
+    margin-top: 50px;
+}
+input[type="checkbox"]{
+    display:flex;
+    flex-direction:column;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+
+}
+.sign{
+    display:flex;
+    flex-direction:row;
+}
